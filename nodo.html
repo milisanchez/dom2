@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script src="funciones2.js"></script>
+  <div class="container">
+    <div class="content single-line" id="firstDiv">
+      <p>Este es el primer párrafo en una sola línea.</p>
+      <p>Este es el segundo párrafo en la misma línea.</p>
+    </div>
+    <div class="content" id="secondDiv">
+      <p>Este es el primer párrafo en líneas separadas.</p>
+      <p>Este es el segundo párrafo en líneas separadas.</p>
+    </div>
+  </div>
+  
+  <button onclick="countChildNodes('firstDiv')">Contar Nodos Primer Div</button>
+  <button onclick="countChildNodes('secondDiv')">Contar Nodos Segundo Div</button>
+  <button onclick="countElementNodes()">Contar Nodos de Tipo Elemento</button>
+
+
+</body>
+</html>
